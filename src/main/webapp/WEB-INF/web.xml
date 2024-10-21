@@ -2,15 +2,15 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
   <servlet>
     <description></description>
-    <display-name>autoresControles</display-name>
-    <servlet-name>autoresControles</servlet-name>
-    <servlet-class>proye.uno.controlles.autoresControles</servlet-class>
+    <display-name>AutoresContoler</display-name>
+    <servlet-name>AutoresContoler</servlet-name>
+    <servlet-class>com.unu.proyectoweb.controllers.AutoresContoler</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>autoresControles</servlet-name>
-    <url-pattern>/autoresControles</url-pattern>
+    <servlet-name>AutoresContoler</servlet-name>
+    <url-pattern>/AutoresContoler</url-pattern>
   </servlet-mapping>
-  <display-name>proye</display-name>
+  <display-name>ProtectoWebGB</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
